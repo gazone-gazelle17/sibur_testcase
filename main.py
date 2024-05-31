@@ -76,6 +76,7 @@ async def main():
                 print(f"Error processing event: {e}")
 
             await asyncio.sleep(1)  # Задержка для экономии ресурсов
+
 if __name__ == "__main__":
     # Запускает функцию
     asyncio.run(main())
